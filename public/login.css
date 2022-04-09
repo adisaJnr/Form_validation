@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+body{
+    background-color: rgba(191, 128, 101, 0.037);
+}
+.form-container{
+    position: relative;
+    left: 20%;
+    width: 60%;
+    height: 100vh;
+    background-color: #ffff;
+}
+.contact-form{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 600px;
+}
+input{
+    outline: none;
+    width: 100%;
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+textarea{
+    /* outline: none; */
+    width: 100%;
+    margin-top: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.button{
+    text-align: center;
+}
+#submit{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 0.5rem;
+    width: 15%;
+    margin-top: 10px;
+    text-align: center;
+    background-color: black;
+    color: #ffff;
+    cursor: pointer;
+    transition: all 250ms;
+}
+#submit:hover{
+    transform: scale(1.1);
+}
