@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
          type: String,
          required: true,
      },
-     gmail: {
+     email: {
         type: String,
         required: true,
     },
@@ -15,13 +15,13 @@ const mongoose = require('mongoose');
         type: String,
         required: true,
     },
-    body: {
+    message: {
         type: String,
         required: true,
     }
  },
  {timestamps:true}
  );
- const Post = mongoose.model('post',postSchema);
+ const Data = mongoose.model('form',postSchema);
 
- module.exports = { Post} ;
+ module.exports = { Data } ;

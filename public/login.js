@@ -20,3 +20,4 @@ btn.addEventListener('click',function (e) {
         console.log(error);
     });
 }) 
+module.exports = { body };
